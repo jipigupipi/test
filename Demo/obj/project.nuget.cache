@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "Eafn41mcA/TpQzwihyXa6UIHamo70M/4vs+ptpPbVa+eQOv3p3K39eqBl87btx58QlQdKtrOHhQrRI5p8F2zSA==",
+  "success": true,
+  "projectFilePath": "D:\\Code\\demo\\dotnet-coding-lesson\\Demo\\Demo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\server.core\\2.0.7269.1061\\server.core.2.0.7269.1061.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\server.core.data.clients\\1.2.7272.1118\\server.core.data.clients.1.2.7272.1118.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Server.Demo 依赖于 Server.Core.Data.Clients (>= 1.1.7269.1097)，但找不到 Server.Core.Data.Clients 1.1.7269.1097。 已解决 Server.Core.Data.Clients 1.2.7272.1118 的近似最佳匹配。 ",
+      "libraryId": "Server.Core.Data.Clients",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6"
+      ]
+    }
+  ]
+}

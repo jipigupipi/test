@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!--Build options-->
+    <TargetFrameworks>net46;</TargetFrameworks>
+    <RootNamespace>Server.Demo</RootNamespace>
+    <AssemblyName>Server.Demo</AssemblyName>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>1591;1701;1702;3021</NoWarn>
+  </PropertyGroup>
+
+  <!--Compiling constants-->
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DefineConstants>TRACE;DEBUG;</DefineConstants>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <DefineConstants>TRACE;</DefineConstants>
+    <DocumentationFile />
+  </PropertyGroup>
+
+  <!--net46-->
+  <ItemGroup Condition="'$(TargetFramework)' == 'net46'">
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Server.Core" Version="2.0.7269.1061" />
+    <PackageReference Include="Server.Core.Data.Clients" Version="1.1.7269.1097" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Demo.Domains\Demo.Domains.csproj" />
+  </ItemGroup>
+</Project>
+

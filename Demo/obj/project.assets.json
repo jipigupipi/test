@@ -1,0 +1,176 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6": {
+      "Server.Core/2.0.7269.1061": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Core",
+          "System.Data",
+          "System.Drawing",
+          "System.Runtime.Caching",
+          "System.Transactions",
+          "System.Web",
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/net46/Server.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Server.Core.dll": {}
+        }
+      },
+      "Server.Core.Data.Clients/1.2.7272.1118": {
+        "type": "package",
+        "dependencies": {
+          "Server.Core": "2.0.7269.1061"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Configuration",
+          "System.Core",
+          "System.Data",
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/net46/Server.Core.Data.Clients.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Server.Core.Data.Clients.dll": {}
+        }
+      },
+      "Server.Demo.Domains/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6",
+        "compile": {
+          "bin/placeholder/Server.Demo.Domains.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Server.Demo.Domains.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Server.Core/2.0.7269.1061": {
+      "sha512": "cVfhCuS1GNaO52JeD8Rg7CzhNl9FJDqlaSYpTJIZBLMEVLeml3FFAXM5Hx9uhtKMN7TjjvMuDTkDiM9JmcYf6g==",
+      "type": "package",
+      "path": "server.core/2.0.7269.1061",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net46/Server.Core.dll",
+        "lib/net46/Server.Core.xml",
+        "lib/netstandard2.0/Server.Core.dll",
+        "lib/netstandard2.0/Server.Core.xml",
+        "server.core.2.0.7269.1061.nupkg.sha512",
+        "server.core.nuspec"
+      ]
+    },
+    "Server.Core.Data.Clients/1.2.7272.1118": {
+      "sha512": "4CrJ4/b2MeIAiWk6tUg9l9Y6YboizsCt/unaDsmiq6+fJqHSXQHpQpaCRf1ag2qqn67s9I0IXhju+Dlux1aAZw==",
+      "type": "package",
+      "path": "server.core.data.clients/1.2.7272.1118",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net46/Server.Core.Data.Clients.dll",
+        "lib/net46/Server.Core.Data.Clients.xml",
+        "lib/netstandard2.0/Server.Core.Data.Clients.dll",
+        "lib/netstandard2.0/Server.Core.Data.Clients.xml",
+        "server.core.data.clients.1.2.7272.1118.nupkg.sha512",
+        "server.core.data.clients.nuspec"
+      ]
+    },
+    "Server.Demo.Domains/1.0.0": {
+      "type": "project",
+      "path": "../Demo.Domains/Demo.Domains.csproj",
+      "msbuildProject": "../Demo.Domains/Demo.Domains.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6": [
+      "Server.Core >= 2.0.7269.1061",
+      "Server.Core.Data.Clients >= 1.1.7269.1097",
+      "Server.Demo.Domains >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\admin\\.nuget\\packages\\": {},
+    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Code\\demo\\dotnet-coding-lesson\\Demo\\Demo.csproj",
+      "projectName": "Server.Demo",
+      "projectPath": "D:\\Code\\demo\\dotnet-coding-lesson\\Demo\\Demo.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "D:\\Code\\demo\\dotnet-coding-lesson\\Demo\\obj\\",
+      "projectStyle": "PackageReference",
+      "crossTargeting": true,
+      "fallbackFolders": [
+        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net46"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "http://pg.tb.com/nuget/Server/": {}
+      },
+      "frameworks": {
+        "net46": {
+          "targetAlias": "net46",
+          "projectReferences": {
+            "D:\\Code\\demo\\dotnet-coding-lesson\\Demo.Domains\\Demo.Domains.csproj": {
+              "projectPath": "D:\\Code\\demo\\dotnet-coding-lesson\\Demo.Domains\\Demo.Domains.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net46": {
+        "targetAlias": "net46",
+        "dependencies": {
+          "Server.Core": {
+            "target": "Package",
+            "version": "[2.0.7269.1061, )"
+          },
+          "Server.Core.Data.Clients": {
+            "target": "Package",
+            "version": "[1.1.7269.1097, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Server.Demo 依赖于 Server.Core.Data.Clients (>= 1.1.7269.1097)，但找不到 Server.Core.Data.Clients 1.1.7269.1097。 已解决 Server.Core.Data.Clients 1.2.7272.1118 的近似最佳匹配。 ",
+      "libraryId": "Server.Core.Data.Clients",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6"
+      ]
+    }
+  ]
+}

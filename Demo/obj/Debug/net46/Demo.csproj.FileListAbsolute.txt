@@ -1,0 +1,17 @@
+D:\Code\demo\dotnet-coding-lesson\Demo\bin\Debug\net46\Server.Demo.dll
+D:\Code\demo\dotnet-coding-lesson\Demo\bin\Debug\net46\Server.Demo.pdb
+D:\Code\demo\dotnet-coding-lesson\Demo\bin\Debug\net46\Server.Demo.xml
+D:\Code\demo\dotnet-coding-lesson\Demo\bin\Debug\net46\Server.Core.dll
+D:\Code\demo\dotnet-coding-lesson\Demo\bin\Debug\net46\Server.Core.Data.Clients.dll
+D:\Code\demo\dotnet-coding-lesson\Demo\bin\Debug\net46\Server.Demo.Domains.dll
+D:\Code\demo\dotnet-coding-lesson\Demo\bin\Debug\net46\Server.Demo.Domains.pdb
+D:\Code\demo\dotnet-coding-lesson\Demo\bin\Debug\net46\Server.Demo.Domains.xml
+D:\Code\demo\dotnet-coding-lesson\Demo\obj\Debug\net46\Demo.csproj.AssemblyReference.cache
+D:\Code\demo\dotnet-coding-lesson\Demo\obj\Debug\net46\Demo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\demo\dotnet-coding-lesson\Demo\obj\Debug\net46\Demo.AssemblyInfoInputs.cache
+D:\Code\demo\dotnet-coding-lesson\Demo\obj\Debug\net46\Demo.AssemblyInfo.cs
+D:\Code\demo\dotnet-coding-lesson\Demo\obj\Debug\net46\Demo.csproj.CoreCompileInputs.cache
+D:\Code\demo\dotnet-coding-lesson\Demo\obj\Debug\net46\Demo.csproj.CopyComplete
+D:\Code\demo\dotnet-coding-lesson\Demo\obj\Debug\net46\Server.Demo.dll
+D:\Code\demo\dotnet-coding-lesson\Demo\obj\Debug\net46\Server.Demo.xml
+D:\Code\demo\dotnet-coding-lesson\Demo\obj\Debug\net46\Server.Demo.pdb

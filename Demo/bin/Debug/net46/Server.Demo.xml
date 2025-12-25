@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Server.Demo</name>
+    </assembly>
+    <members>
+        <member name="F:Demo.Caches.Space">
+            <summary>
+            缓存命名空间
+            </summary>
+        </member>
+        <member name="P:Demo.Caches.Memory">
+            <summary>
+            使用本地内存的缓存。
+            </summary>
+        </member>
+        <member name="T:Demo.Caches.Business">
+            <summary>
+            具体某个业务的缓存，通过自行拼装key的方式进行管理和划分。
+            </summary>
+        </member>
+        <member name="T:Demo.Constants">
+            <summary>
+            存放一些静态的配置信息。
+            </summary>
+        </member>
+        <member name="F:Demo.Constants.CacheNamespace">
+            <summary>
+            缓存命名空间
+            </summary>
+        </member>
+        <member name="F:Demo.Constants.NmsKey">
+            <summary>
+            用于GameApi加解密的Key。
+            </summary>
+        </member>
+        <member name="F:Demo.Constants.AppKey">
+            <summary>
+            用于OpenApi加密校验的AppKey。
+            </summary>
+        </member>
+        <member name="F:Demo.Constants.AppSecret">
+            <summary>
+            用于OpenApi加密校验的AppSecret。
+            </summary>
+        </member>
+        <member name="F:Demo.Constants.ClientId">
+            <summary>
+            用于NmsSdk验证身份的的ClientId。
+            </summary>
+        </member>
+        <member name="F:Demo.Constants.ClientSecret">
+            <summary>
+            用于NmsSdk验证身份的的ClientSecret。
+            </summary>
+        </member>
+        <member name="P:Demo.Db.DemoDb">
+            <summary>
+            简单的获取指定数据库的方式。需要在管理后台进行配置，才能通过这种方式拿到对应的数据库连接串。
+            </summary>
+        </member>
+        <member name="P:Demo.Db.DemoTimeOutDb">
+            <summary>
+            带有指定超时时间的数据库连接对象。
+            </summary>
+        </member>
+        <member name="P:Demo.Db.DemoConnectStringDb">
+            <summary>
+            也可以通过连接串直接获取数据库连接对象。
+            </summary>
+        </member>
+        <member name="M:Demo.Db.TimeoutEnhancedDbClientFactory(Server.Core.Data.DbIdentity,System.String)">
+            <summary>
+            创建带有默认的读写超时设定的 IDbClient。
+            </summary>
+        </member>
+        <member name="P:Demo.DemoWrapper.DefaultWriteTimeout">
+            <summary>
+            写入相关命令的默认超时时间（单位：毫秒）。
+            </summary>
+        </member>
+        <member name="M:Demo.DemoWrapper.#ctor(Server.Core.Data.IDbClient)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

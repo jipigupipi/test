@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Server.Demo.Domains</name>
+    </assembly>
+    <members>
+        <member name="F:Server.Demo.Domains.Business.LoginBusiness.Id">
+            <summary>
+            主键id
+            </summary>
+        </member>
+        <member name="F:Server.Demo.Domains.Business.LoginBusiness.UserName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="F:Server.Demo.Domains.Business.LoginBusiness.Password">
+            <summary>
+            密码
+            </summary>
+        </member>
+    </members>
+</doc>
